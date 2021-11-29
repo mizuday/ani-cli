@@ -3,18 +3,29 @@
 > Script working again :), thanks to the fork by
 > [Dink4n](https://github.com/Dink4n/ani-cli) for the alternative approach to
 > by pass the captcha on [gogoanime](https://gogoanime.vc)
+> Forked from pystardust, works on WSL using VLC as media player
 
 A cli to browse and watch anime.
 
 This tool scrapes the site [gogoanime](https://gogoanime.pe).
 
+Works on Windows Subsystem For Linux using VLC.exe as the media player
+
 ## Download
 
 ```bash
-git clone https://github.com/pystardust/ani-cli.git
+git clone https://github.com/mizuday/ani-cli.git
 ```
 
 ## Install
+
+1. Download and install latest VLC Media Player
+
+2. Add VLC to PATH
+
+3. Changedir to the cloned repo in the WSL
+
+4. Do the following command:
 
 ```bash
 cd ani-cli
@@ -22,6 +33,9 @@ sudo make
 ```
 
 ## Usage
+
+  ### start ani-cli
+  ``ani-cli``
 
   ### watch anime
   ``ani-cli <query>``
@@ -57,8 +71,7 @@ This would open/download episodes 1 2 3 4 5 6
 * grep
 * curl
 * sed
-* mpv
-* ffmpeg
+* vlc media player windows (vlc.exe)
 
 ## Misc
 
